@@ -1,0 +1,23 @@
+# Configuración y secretos locales
+autologin_config.local.json
+*.local.json
+.env
+.env.*
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Windows e IDEs
+*.lnk
+*.xml
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini

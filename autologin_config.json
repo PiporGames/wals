@@ -1,0 +1,32 @@
+{
+  "target_ip": "192.168.1.100",
+  "target_mac": "AA:BB:CC:DD:EE:FF",
+  "wait_for_controller": true,
+  "controller_name": "Wireless Controller",
+  "rdp_username": "usuario",
+  "rdp_password": "",
+  "rdp_domain": "",
+  "rdp_extra_args": [
+    "/cert:ignore",
+    "+clipboard",
+    "/w:1920",
+    "/h:1080",
+    "/sound",
+    "/log-level:INFO"
+  ],
+  "rdp_enable_session_transfer": true,
+  "rdp_transfer_delay_seconds": 5,
+  "rdp_transfer_timeout_seconds": 60,
+  "rdp_progress_interval_seconds": 5,
+  "remote_steam_command": "steam://open/bigpicture",
+  "launch_local_steam_after_rdp": true,
+  "steam_command": [
+    "steam"
+  ],
+  "max_retry_attempts": 5,
+  "wol_timeout_seconds": 90,
+  "online_check_port": 3389,
+  "online_check_interval_seconds": 3,
+  "controller_poll_seconds": 5,
+  "log_file": "autologin.log"
+}
