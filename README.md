@@ -51,7 +51,7 @@ sudo apt-get install -y bluez bluetooth freerdp2-x11 xvfb
 
 ## Configuración
 
-Edita `autologin_config.json` y sustituye los valores de ejemplo. Cada opción
+Edita `autologin_config-example.json` y sustituye los valores de ejemplo. Luego, renombre el archivo a `autologin_config.json`. Cada opción
 se describe en su propia línea:
 
 - `target_ip`: dirección IP del PC Windows.
