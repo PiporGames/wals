@@ -138,3 +138,7 @@ transfer_rdp_session.ps1             Transferencia RDP a consola Windows
 install_transfer_rdp_task.ps1        Instalador de tarea programada
 uninstall_transfer_rdp_task.ps1      Desinstalador de tarea programada
 ```
+
+#### Uso responsable de la IA
+
+> Este proyecto ha sido construido en su totalidad utilizando inteligencia artificial, siendo supervisado y controlado por humanos de verdad.
